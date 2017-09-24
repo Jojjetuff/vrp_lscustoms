@@ -2327,7 +2327,7 @@ function UpdateVehicle(car)
 		end
 		
 		vehicle = vehicles[vtype][2]
-		SetEntityAsMissionEntity(veh, true, true)
+     		Citizen.InvokeNative(0xAD738C3085FE7E11, nveh, true, true) -- set as mission entity
 		if DoesEntityExist(veh) then
 
 			local colors = table.pack(GetVehicleColours(veh))
