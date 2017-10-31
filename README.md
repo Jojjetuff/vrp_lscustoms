@@ -2,7 +2,7 @@
 fx-server only, requires my vrp_showroom
 
 If you get SQL errors it should be because its made to work with databases that accept ADD IF NOT EXISTS.  
-To create the tables on your database floow the steps:  
+To create the tables on your database follow the steps:  
 
 1. Remove every IF NOT EXISTS from server.lua  
 2. Run the server once.  
